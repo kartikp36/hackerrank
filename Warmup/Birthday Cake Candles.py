@@ -1,3 +1,5 @@
-total = int(input())
-candles = list(map(int,input().split()))
-print(candles.count(max(candles)))
+numbers = list(map(int,input().split(" ")))
+digits =[]
+for i in numbers:
+    digits.append(str(i))
+print(numbers)
